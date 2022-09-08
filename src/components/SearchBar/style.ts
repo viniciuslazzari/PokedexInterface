@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Black_2 } from '../../config/colors';
 
 export const SearchBarWrapper = styled.div`
     display: flex;
@@ -8,7 +9,7 @@ export const SearchBarWrapper = styled.div`
     margin-right: auto;
     border-radius: 15px;
     overflow: hidden;
-    background: #222528;
+    background: ${Black_2};
     padding: 15px 0px;
     border: 1px solid rgba(0,0,0,0);
     cursor: pointer;

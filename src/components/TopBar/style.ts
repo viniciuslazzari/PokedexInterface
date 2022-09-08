@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import { Black_2 } from "../../config/colors";
 
 export const TopBarContainer = styled.div`
-    background: #222528;
+    background: ${Black_2};
     width: 100%;
     height: 70px;
 `;
@@ -25,22 +26,5 @@ export const MidSectionIcon = styled.div`
     p {
         color: white;
         margin-left: 15px;
-    }
-`;
-
-export const TopBarButton = styled.button`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background: #0C85FF;
-    width: 120px;
-    height: 48px;
-    border-radius: 20px;
-    border: none;
-    
-    p {
-        margin-left: 10px;
-        font-weight: 600;
-        font-size: 16px;
     }
 `;

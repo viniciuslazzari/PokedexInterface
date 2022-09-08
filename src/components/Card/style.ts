@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Black_2 } from '../../config/colors';
 
 export const CardWrapper = styled.div`
     display: flex;
@@ -9,7 +10,7 @@ export const CardWrapper = styled.div`
 `;
 
 export const CardStyle = styled.div`
-    background: #222528;
+    background: ${Black_2};
     border-radius: 25px;
     height: 210px;
     width: 270px;

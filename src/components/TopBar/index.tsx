@@ -1,6 +1,8 @@
-import { TopBarContainer, TopBarStyle, MidSectionIcon, TopBarButton } from "./style"
+import { TopBarContainer, TopBarStyle, MidSectionIcon } from "./style"
 import { Link } from "react-router-dom";
 import { Zap, Plus } from 'react-feather';
+import Button from "../Button";
+import { PrimaryBlue } from "../../config/colors";
 
 const TopBar = () => {
     return (
@@ -24,10 +26,10 @@ const TopBar = () => {
                 </MidSectionIcon>
                 <MidSectionIcon>
                     <Link to="/new" style={{ textDecoration: 'none' }}>
-                        <TopBarButton>
+                        <Button onClick={() => {}} color={PrimaryBlue}>
                             <Plus style={{ marginLeft: 14, color: "white" }} />
                             <p>Create</p>
-                        </TopBarButton>
+                        </Button>
                     </Link>
                 </MidSectionIcon>
             </TopBarStyle>
