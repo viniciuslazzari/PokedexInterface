@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import TopBar from "./components/TopBar";
 import "./app.css"
 import NewPokemon from "./pages/NewPokemon";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
